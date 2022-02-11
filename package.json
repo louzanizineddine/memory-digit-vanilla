@@ -1,0 +1,22 @@
+{
+  "name": "memory-digit-vanilla",
+  "version": "1.0.0",
+  "description": "game to improve your memory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louzanizineddine/memory-digit-vanilla.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Louzani Zineddine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louzanizineddine/memory-digit-vanilla/issues"
+  },
+  "homepage": "https://github.com/louzanizineddine/memory-digit-vanilla#readme"
+}
