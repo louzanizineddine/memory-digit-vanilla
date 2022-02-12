@@ -1,0 +1,57 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1A2238 !important;
+}
+
+header {
+    min-height: 30vh;
+}
+
+.level h3 {
+    color:#F4DB7D;
+    letter-spacing: 0.5rem;
+}
+.current-level {
+    font-size: xx-large;
+    color: #F4DB7D;
+}
+.timer  , .timer-span {
+    letter-spacing: 0.5rem;
+    font-size: xx-large;
+    color:#F4DB7D;
+}
+
+.timer-span.danger {
+    color: red;
+}
+
+.digit-display {
+    color: #F4DB7D;
+    font-size: xxx-large;
+}
+
+.start-game {
+
+    letter-spacing: 10px;
+    font-size: x-large;
+    color: #EEE;
+}
+
+main input {
+    width: 50%;
+    height: 3rem;
+    background-color: inherit;
+    border: 3px solid white;
+    color: #EEE;
+    text-align: center;
+}
+
+main input::placeholder {
+    color: #F4DB7D;
+    text-align: center;
+    font-size: larger;
+    letter-spacing: .5rem;
+}

@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/louzanizineddine/memory-digit-vanilla/issues"
   },
-  "homepage": "https://github.com/louzanizineddine/memory-digit-vanilla#readme"
+  "homepage": "https://github.com/louzanizineddine/memory-digit-vanilla#readme",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.1.3",
+    "tone": "^14.7.77"
+  }
 }

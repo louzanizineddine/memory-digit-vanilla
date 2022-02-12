@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <script defer src="./app.js"></script>
+    <script  defer type="module" src="./app.js"></script>
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="d-flex justify-content-between mt-5">
             <div class="level">
-                <h3>LEVEL</h3>
-                <span class="current-level">1515</span>
+                <h3 class="d-inline">LEVEL : </h3>
+                
+                <span class="current-level">1</span>
             </div>
             <div class="messages">
-                <p>here we show messages</p>
+                <p></p>
             </div>
             <div class="timer">
-                00s
+                TIMER : <span class="timer-span">00</span>
             </div>
         </header>
-        <main>
-            <div class="digit-display">
-                <!-- here we show the number-->
+        <div class="start-game text-center">
+            CLICK ANYWHWERE TO START PLAYING
+        </div>
+        <main class="main-game-display d-none">
+            <div class="digit-display text-center">
+                
             </div>
-            <div>
-                <input class="user-input" type="text"> type the number
-                <button class="submit-btn" type="submit">submit</button>
+            <div class="d-flex justify-content-center">
+                <input class="user-input d-block" type="text" placeholder="type the digits">
+                <button class="submit-btn btn-primary" type="submit">submit</button>
             </div>
 
-            <div class="loop-again">
-                <button class="again-button" type="submit">TRY again</button>
+            <div class="loop-again d-flex justify-content-center">
+                <button class="again-button btn-primary mt-3" type="submit">try again</button>
             </div>
         </main>
 
